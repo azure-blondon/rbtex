@@ -3,6 +3,9 @@ A small Rust tool that renders retro terminal style text animations into a video
 
 It parses a simple markup language, renders text frame by frame and merges every frame into an MP4 video using ffmpeg.
 
+## Examples:
+
+![example_video](./examples/preview.gif)
 
 
 ## Project Structure
