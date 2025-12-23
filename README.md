@@ -1,0 +1,2 @@
+# rbtex
+scrolling text renderer
