@@ -1,0 +1,14 @@
+§p:10§§i:              §   §c:red§o
+§i:              §  §c:green§§i:o §§c:blue§o§c:reset§
+
+
+
+
+
+
+§p:32§
+§i:signal detected§§p:16§
+booting§p:16§.§p:16§.§p:16§.§p:32§
+ready.§p:10§
+
+
