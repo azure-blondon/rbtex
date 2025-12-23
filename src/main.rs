@@ -21,7 +21,7 @@ fn main() {
     std::fs::create_dir_all(output_dir).expect("failed to create frames dir");
 
     
-    let font_path: &str = "assets/font.ttf";
+    let font_path: &str = "assets/clacon2.ttf";
     let frames_dir: &str = &format!("{}/{}", output_dir, "frames");
     std::fs::create_dir_all(frames_dir).expect("failed to create frames dir");
 
