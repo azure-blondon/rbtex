@@ -5,7 +5,8 @@ It parses a simple markup language, renders text frame by frame and merges every
 
 ## Examples:
 
-![example_video](./examples/preview.gif)
+A simple boot like screen:
+![boot](./examples/preview.gif)
 
 
 ## Project Structure
