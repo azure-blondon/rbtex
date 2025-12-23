@@ -6,6 +6,7 @@ It parses a simple markup language, renders text frame by frame and merges every
 ## Examples:
 
 A simple boot like screen:
+
 ![boot](./examples/preview.gif)
 
 
