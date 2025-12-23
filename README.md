@@ -9,7 +9,7 @@ It parses a simple markup language, renders text frame by frame and merges every
 ```
 .
 ├─ assets/
-|  └─ your_favorite_font.ttf      # the font to use
+|  └─ font.ttf                    # the font to use
 |
 ├─ input/
 |  └─ input.txt                   # input script
@@ -42,6 +42,7 @@ The renderer parses text character by character, with commands delimited by `§`
 ### Commands
 
 - **Pause**
+
 Pauses for a variable time.
 ```
 §p:<time_to_wait>§
@@ -54,6 +55,7 @@ Pauses for 30 units (one unit is the time it takes to print a single character).
 
 
 - **Instant text**
+
 Renders the entire text in one unit.
 ```
 §i:<text>§
@@ -66,6 +68,7 @@ It is impossible to nest commands in an instant text.
 
 
 - **Color change**
+
 Changes the color for the following text.
 ```
 §c:<color_name>§
@@ -78,9 +81,9 @@ this one also §i:even this one§
 §c:reset§now we go back to the initial color
 ```
 Built-in colors:
-- red   : (255, 000, 000)
-- green : (000, 255, 000)
-- blue  : (000, 000, 255)
+- red : (255, 0, 0)
+- green : (0, 255, 0)
+- blue : (0, 0, 255)
 - reset : (255, 255, 255)
 
 
